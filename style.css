@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    overflow: hidden;
+}
+
+#page{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#meteo{
+    background-color: orange;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.TheSearch{
+    width: 100px;
+    margin: auto;
+}
