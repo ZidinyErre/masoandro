@@ -1,8 +1,9 @@
 // window.addEventListener("load", function () {
 //     console.log(" bien ouej !!");
 // })
-// // const apiUrl = "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.04&appid=d3c63080f29514c09fe0fbe19103afd7";
-// const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=montpellier&appid=d3c63080f29514c09fe0fbe19103afd7&units=metric";
+// require('dotenv').config();
+// const apiKey = process.env.KEY_API;
+// const apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=montpellier&appid=${apiKey}&units=metric";
 // console.log(apiUrl);
 
 
