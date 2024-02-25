@@ -19,3 +19,4 @@
 //     console.log( "données météo : ", data);
 // })
 // .catch(error =>{console.error('Erreur lors de la récupérations des données!',error);})
+
