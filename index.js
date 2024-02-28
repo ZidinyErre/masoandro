@@ -1,9 +1,9 @@
 window.addEventListener("load", function () {
     console.log(" bien ouej !!");
 })
-const apiKey = process.env.KEY_API;
+import apiKey from './other.js'
+// const apiKey = process.env.KEY_API;
 const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=montpellier&appid=${apiKey}&units=metric`;
-console.log(apiUrl);
 
 
 fetch(apiUrl)
